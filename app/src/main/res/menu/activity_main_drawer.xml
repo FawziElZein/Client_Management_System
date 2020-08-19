@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_purchases"
+            android:icon="@drawable/ic_purchases"
+            android:title="@string/menu_purchase" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_client_dark"
+            android:title="@string/menu_clients" />
+
+        <item
+            android:id="@+id/nav_accounting"
+            android:icon="@drawable/ic_accounting"
+            android:title="@string/menu_accounting" />
+    </group>
+
+    <item
+        android:id="@+id/clients_filter"
+        android:title="@string/menu_clients">
+        <menu android:id="@+id/sub_menu" />
+    </item>
+
+</menu>
