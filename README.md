@@ -57,6 +57,7 @@ Create and update Client information (name, phone number, address). Swip left to
 <br/>
 Create and update Category (name, price, color). Swip left to delete it.
 <br/>
+<br/>
 <table style="width:100%">
   <tr>
     <th>Create</th>
