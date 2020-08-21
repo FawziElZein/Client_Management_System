@@ -10,7 +10,8 @@ This project consist of a mobile application built with Back4App as mBaas (mobil
 # Overview
 
 #### 1. Connect to Parse Server
-em
+<br/>
+
 In order to connect to parse server on back4app, you should start by getting your keys. After login and creating your back4App application go to 
 ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 
@@ -19,6 +20,7 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 </div>
 
 #### 2. Create, Update, Delete purchase
+<br/>
 
 <table style="width:100%">
   <tr>
@@ -34,6 +36,7 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 </table>
 
 #### 3. Create, Update, Delete client
+<br/>
 
 <table style="width:100%">
   <tr>
@@ -49,6 +52,7 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 </table>
 
 #### 4. Create, Update, Delete category
+<br/>
 
 <table style="width:100%">
   <tr>
