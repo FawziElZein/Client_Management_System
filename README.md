@@ -1,12 +1,11 @@
 # Description
 
-This project consist of a mobile application built with Back4App as mBaas (mobile Backend As A Service).The application can manage client purchases for the merchant (user of this 
-application). All clients informations and their related purchases are stored on a hosted Parse Database.
+This project consist of a mobile application built with Back4App as mBaas (mobile Backend As A Service).The application can manage client purchases for the merchant (user of this application). All clients informations and their related purchases are stored on a hosted Parse Database.
 
 
 # Architecture
 
-![Project Architecture](https://github.com/FawziElZein/Client_Management_System/blob/master/Architecture.png)
+![Project Architecture](https://github.com/FawziElZein/Client_Management_System/blob/master/architecture.png)
 
 # Instruction
 
@@ -15,7 +14,7 @@ In order to connect to parse server on back4app, you should start by getting you
 ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 
 <div align="center">
-<img src="https://github.com/FawziElZein/Client_Management_System/blob/master/parsesetup.jpg">
+<img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/parsesetup.jpg">
 </div>
 
 #### 2. Create, Update, Delete purchase
