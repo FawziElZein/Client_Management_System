@@ -20,8 +20,8 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 
 ### 2. Purchase
 <br/>
-Create and update purchase with related information (Client, Date of purchase, Category of the material, its weight, Payment method and some notes). Swip left 
-to delete it.
+Create and update purchase with related information (Client, Date of purchase, Category of the material, its weight, Payment method and some notes). Colors in the
+left of each purchase are setted when assigning color for the related category (See #4 Category). Swip left to delete it.
 <br/>
 <br/>
 <table style="width:100%">
