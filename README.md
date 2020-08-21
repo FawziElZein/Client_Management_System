@@ -38,7 +38,8 @@ to delete it.
 
 ### 3. Client
 <br/>
-
+Create and update Client information (name, phone number, address). Swip left to delete it.
+<br/>
 <table style="width:100%">
   <tr>
     <th>Create</th>
@@ -54,7 +55,8 @@ to delete it.
 
 ### 4. Category
 <br/>
-
+Create and update Category (name, price, color). Swip left to delete it.
+<br/>
 <table style="width:100%">
   <tr>
     <th>Create</th>
