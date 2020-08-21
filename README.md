@@ -18,7 +18,7 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 <img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/parsesetup.jpg">
 </div>
 
-### 2. Create, Update, Delete purchase
+### 2. Purchase
 <br/>
 
 <table style="width:100%">
@@ -34,7 +34,7 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
   </tr>
 </table>
 
-### 3. Create, Update, Delete client
+### 3. Client
 <br/>
 
 <table style="width:100%">
@@ -50,7 +50,7 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
   </tr>
 </table>
 
-### 4. Create, Update, Delete category
+### 4. Category
 <br/>
 
 <table style="width:100%">
@@ -61,8 +61,8 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
   </tr>
   <tr>
     <td><img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/createcategory.jpg"></td>
-    <td><img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/deletecategory.jpg"></td>
     <td><img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/colorcategory.jpg"></td>
+    <td><img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/deletecategory.jpg"></td>
   </tr>
 </table>
 
