@@ -39,6 +39,7 @@ Create and update purchase with related information (Client, Date of purchase, C
 <br>
 Create and update Client information (name, phone number, address). Swip left to delete it.
 <br>
+<br>
 <table style="width:100%">
   <tr>
     <th>Create</th>
@@ -55,6 +56,7 @@ Create and update Client information (name, phone number, address). Swip left to
 ### 4. Category
 <br>
 Create and update Category (name, price, color). Swip left to delete it.
+<br>
 <br>
 <table style="width:100%">
   <tr>
