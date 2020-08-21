@@ -2,6 +2,8 @@
 
 This project consist of a mobile application built with Back4App as mBaas (mobile Backend As A Service).The application can manage client purchases for the merchant (user of this application). All clients informations and their related purchases are stored on a hosted Parse Database.
 
+Once Parse server is initialized on the mobile application, a local database will be initialized also. First, when the application is launched, this database is initialized by the data fetched from the online parse server. Then in case of network failure, every query that was meant to be executed on the online database will be executed on the local one. Once the connection is back, the SDK will take care of executing it online so no need to worry about internet failure.
+
 # Architecture
 
 ![Project Architecture](https://github.com/FawziElZein/Client_Management_System/blob/master/architecture.png)
