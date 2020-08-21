@@ -7,7 +7,7 @@ This project consist of a mobile application built with Back4App as mBaas (mobil
 
 ![Project Architecture](https://github.com/FawziElZein/Client_Management_System/blob/master/architecture.png)
 
-# Instruction
+# Overview
 
 #### 1. Connect to Parse Server
 In order to connect to parse server on back4app, you should start by getting your keys. After login and creating your back4App application go to 
