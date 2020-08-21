@@ -9,10 +9,9 @@ This project consist of a mobile application built with Back4App as mBaas (mobil
 # Overview
 
 ### 1. Connect to Parse Server
-<br/>
+<br>
 
-In order to connect to parse server on back4app, you should start by getting your keys. After login and creating your back4App application go to 
-ServerSettings -> Core Settings and retreive your AppId and ClientKey.
+In order to connect to parse server on back4app, you should start by getting your keys. After login and creating your back4App application go to ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 
 <div align="center">
 <img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/parsesetup.jpg">
@@ -20,8 +19,8 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 
 ### 2. Purchase
 <br>
-Create and update purchase with related information (Client, Date of purchase, Category of the material, its weight, Payment method and some notes). Colors in the
-left of each purchase are setted when assigning color for the related category (See #4 Category). Swip left to delete it.
+Create and update purchase with related information (Client, Date of purchase, Category of the material, its weight, Payment method and some notes). Colors in the left of each purchase are setted when assigning color for the related category (See #4 Category). Swip left to delete it.
+<br>
 <br>
 <table style="width:100%">
   <tr>
@@ -37,10 +36,9 @@ left of each purchase are setted when assigning color for the related category (
 </table>
 
 ### 3. Client
-<br/>
+<br>
 Create and update Client information (name, phone number, address). Swip left to delete it.
-<br/>
-<br/>
+<br>
 <table style="width:100%">
   <tr>
     <th>Create</th>
@@ -55,10 +53,9 @@ Create and update Client information (name, phone number, address). Swip left to
 </table>
 
 ### 4. Category
-<br/>
+<br>
 Create and update Category (name, price, color). Swip left to delete it.
-<br/>
-<br/>
+<br>
 <table style="width:100%">
   <tr>
     <th>Create</th>
