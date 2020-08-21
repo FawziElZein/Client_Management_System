@@ -40,9 +40,7 @@ to delete it.
 ### 3. Client
 
 <br/>
-
 Create and update Client information (name, phone number, address). Swip left to delete it.
-
 <br/>
 
 <table style="width:100%">
