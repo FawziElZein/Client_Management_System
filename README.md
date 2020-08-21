@@ -56,8 +56,8 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 <table style="width:100%">
   <tr>
     <th>Create</th>
-    <th>Update</th>
     <th>Delete</th>
+    <th>SetColor</th>
   </tr>
   <tr>
     <td><img src="https://github.com/FawziElZein/Client_Management_System/blob/master/screenshots/createcategory.jpg"></td>
