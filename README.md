@@ -20,7 +20,9 @@ ServerSettings -> Core Settings and retreive your AppId and ClientKey.
 
 ### 2. Purchase
 <br/>
-
+Create and update purchase with related information (Client, Date of purchase, Category of the material, its weight, Payment method and some notes). Swip left 
+to delete it.
+<br/>
 <table style="width:100%">
   <tr>
     <th>Create</th>
