@@ -1,8 +1,10 @@
 package com.clientsinfo.ui.clients;
 
+import androidx.annotation.NonNull;
+
 import java.io.Serializable;
 
-public class Client implements Serializable, Comparable<Client> {
+public class Client implements Serializable, Comparable<Client>, Cloneable {
 
     private String name;
     private String oldPhoneNumber;
@@ -43,5 +45,11 @@ public class Client implements Serializable, Comparable<Client> {
     @Override
     public int compareTo(Client client) {
         return this.name.compareTo(client.getName());
+    }
+
+    @NonNull
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

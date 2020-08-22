@@ -178,7 +178,6 @@ public class ClientsFragment extends Fragment implements RecyclerItemClickListen
         ParseManagement.insertClient(requireContext(), client, getParentFragmentManager(), () -> {
 
             int position = addClientInAlphabeticOrder(client);
-            Log.i("Info", "Update position is " + position);
             adapter.notifyItemInserted(position);
             ParseManagement.initializeClientsMenu(navigationView, clients);
         });
@@ -203,10 +202,22 @@ public class ClientsFragment extends Fragment implements RecyclerItemClickListen
             newPhoneNumber = true;
         }
         ParseManagement.updateClient(requireContext(), client, newPhoneNumber, getParentFragmentManager(), () -> {
-            clients.set(positionUpdate, client);
-            adapter.notifyItemChanged(positionUpdate);
+            int position = updateClientInAlphabeticOrder(client);
+            adapter.notifyItemInserted(position);
             ParseManagement.initializeClientsMenu(navigationView, clients);
         });
+    }
+
+    private int updateClientInAlphabeticOrder(Client entry) {
+        Client client = null;
+        try {
+            client = (Client) entry.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        clients.remove(positionUpdate);
+        adapter.notifyItemRemoved(positionUpdate);
+        return addClientInAlphabeticOrder(client);
     }
 
     public void removeClient(int position) {
