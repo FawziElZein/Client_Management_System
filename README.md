@@ -82,3 +82,7 @@ There are different ways to get this app for Android; through the app store, fro
 <a href="http://play.google.com/store/apps/details?id=com.clientsinfo">
   <img alt="Android app on Google Play" src="http://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
 </a>
+
+### From GitHub
+
+Download the .apk from https://github.com/FawziElZein/Client_Management_System/tree/master/app/release
