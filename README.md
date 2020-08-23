@@ -73,3 +73,12 @@ Create and update Category (name, price, color). Swip left to delete it.
   </tr>
 </table>
 
+# Installation
+
+There are different ways to get this app for Android; through the app store, from github or building it yourself.
+
+### App Store
+
+<a href="http://play.google.com/store/apps/details?id=com.clientsinfo">
+  <img alt="Android app on Google Play" src="http://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+</a>
